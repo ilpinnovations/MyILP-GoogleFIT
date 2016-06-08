@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="padding_normal">10dp</dimen>
+    <dimen name="padding_low">5dp</dimen>
+    <dimen name="padding_high">15dp</dimen>
+    <dimen name="margin_normal">10dp</dimen>
+    <dimen name="margin_low">5dp</dimen>
+    <dimen name="margin_high">15dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <!-- Drawer -->
+    <dimen name="margin_start_drawer_icon">16dp</dimen>
+    <dimen name="margin_start_drawer_text">16dp</dimen>
+
+    <!-- Button radius -->
+    <dimen name="button_corner_radius">5dp</dimen>
+    <dimen name="button_classroom_corner_radius">10dp</dimen>
+    <!-- List specific -->
+    <dimen name="list_divider_height">2dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+</resources>

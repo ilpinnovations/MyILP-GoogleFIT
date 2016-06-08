@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#d8d8d8"
+    android:id="@+id/toolbarfit"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+<ImageView
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:id="@+id/cross"
+    android:src="@drawable/cross1"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="13dp"
+            android:id="@+id/img2"
+            android:background="@drawable/circle_activity1"
+            android:src="@drawable/ic_activity2"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="13dp"
+            android:id="@+id/dist"
+            android:background="@drawable/distactivity"
+            android:src="@drawable/distance"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="13dp"
+            android:id="@+id/img3"
+            android:background="@drawable/circle_activity2"
+            android:src="@drawable/calorie"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/img4"
+            android:layout_marginLeft="13dp"
+            android:background="@drawable/circular_activity"
+            android:src="@drawable/heartbeat"/>
+    </LinearLayout>
+</android.support.v7.widget.Toolbar>

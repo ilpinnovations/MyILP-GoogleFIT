@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <fragment
+        android:id="@+id/fragmentLocationMap"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/margin_low"
+        android:background="@drawable/map_search"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_normal" >
+
+        <EditText
+            android:id="@+id/editTextLocationSearch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:hint="@string/hint_search"
+            android:inputType="text" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <ImageButton
+                android:id="@+id/imageButtonLocationSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@null"
+                android:src="@drawable/ic_action_search" />
+
+            <ProgressBar
+                android:id="@+id/progressBarLocationSearch"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:indeterminate="true"
+                android:padding="@dimen/padding_low"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="70dp"
+        android:gravity="end" >
+
+        <ImageButton
+            android:id="@+id/imageButtonLocationNavigate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_low"
+            android:background="@drawable/btn_loc"
+            android:padding="@dimen/padding_normal"
+            android:src="@drawable/ic_navigate_inactive" />
+
+        <ImageButton
+            android:id="@+id/imageButtonLocationMyLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_low"
+            android:background="@drawable/btn_loc"
+            android:padding="@dimen/padding_normal"
+            android:src="@drawable/ic_myloc" />
+
+        <ImageButton
+            android:id="@+id/imageButtonLocationIlp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_low"
+            android:background="@drawable/btn_loc"
+            android:padding="@dimen/padding_normal"
+            android:src="@drawable/ic_ilp" />
+
+        <ImageButton
+            android:id="@+id/imageButtonLocationHostel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_low"
+            android:background="@drawable/btn_loc"
+            android:padding="@dimen/padding_normal"
+            android:src="@drawable/ic_hostel" />
+    </LinearLayout>
+
+</RelativeLayout>

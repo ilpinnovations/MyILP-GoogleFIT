@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.ilp.ilpschedule.MainActivity$PlaceholderFragment" >
+
+    <ListView
+        android:id="@+id/listViewContacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:dividerHeight="@dimen/list_divider_height"
+        android:layout_margin="@dimen/margin_normal" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/textViewContactsEmptyView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_normal"
+        android:background="@drawable/map_search"
+        android:gravity="center"
+        android:padding="@dimen/padding_high"
+        android:text="@string/list_empty_contacts"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

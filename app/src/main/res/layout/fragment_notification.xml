@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/listViewNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_normal"
+        android:divider="@null"
+        android:dividerHeight="@dimen/list_divider_height"
+        tools:context="com.ilp.ilpschedule.MainActivity$PlaceholderFragment" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/textViewNotificationEmptyView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_high"
+        android:background="@drawable/map_search"
+        android:gravity="center"
+        android:padding="@dimen/padding_normal"
+        android:text="@string/list_empty_notification"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

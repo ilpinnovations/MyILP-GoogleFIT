@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_badge_header"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_normal" >
+
+        <ImageView
+            android:id="@+id/imageViewBadge"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="@dimen/padding_low"
+            android:src="@drawable/badge_nobadge" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViewBadgeMyPoint"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_low"
+                android:text="@string/badge_you_earn"
+                android:textAppearance="?android:attr/textAppearanceMediumInverse" />
+
+            <TextView
+                android:id="@+id/textViewBadgeDesc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_low"
+                android:text="@string/badge_you_need"
+                android:textAppearance="?android:attr/textAppearanceInverse" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewBadges"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_low" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/textViewBadgesEmptyView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_normal"
+        android:background="@drawable/map_search"
+        android:gravity="center"
+        android:padding="@dimen/padding_high"
+        android:text="@string/list_empty_badges"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

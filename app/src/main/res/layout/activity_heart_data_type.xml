@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ProgressWheel="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/layout">
+
+    <SurfaceView android:id="@+id/preview"
+        android:layout_weight="1"
+        android:background="#fff"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    </SurfaceView>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+        <include layout="@layout/toolbarfit"
+            android:id="@+id/toolbarfit"/>
+
+
+        <com.ilp.ilpschedule.util.HeartbeatView
+            android:id="@+id/image"
+            android:layout_width="32dp"
+            android:visibility="invisible"
+            android:layout_height="32dp"
+            android:layout_alignBottom="@+id/toolbarfit"
+            android:layout_alignRight="@+id/pw_spinner"
+            android:layout_alignEnd="@+id/pw_spinner">
+        </com.ilp.ilpschedule.util.HeartbeatView>
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="320dp"
+            android:background="#d8d8d8"
+            android:layout_alignBottom="@+id/image"
+            android:layout_alignParentTop="true" />
+        <com.ilp.ilpschedule.util.ProgressWheel
+            android:id="@+id/pw_spinner"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            ProgressWheel:text="0"
+            ProgressWheel:textColor="#222"
+            ProgressWheel:textSize="22sp"
+            ProgressWheel:rimColor="#FFFF8800"
+            ProgressWheel:barLength="60dp"
+            ProgressWheel:barColor="#FFFFBE7A"
+            ProgressWheel:barWidth="20dp"
+            ProgressWheel:rimWidth="2dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/image" />
+
+        <TextView
+            android:id="@+id/txt_average"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_below="@id/pw_spinner"
+            android:hint="Heartrate"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:textStyle="italic"
+            android:layout_marginTop="40dp"
+            android:text="Hold your finger on camera until progress reaches 100%"
+            android:layout_alignTop="@+id/txt_average"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView6" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_below="@+id/textView6"
+            android:layout_alignLeft="@+id/pw_spinner"
+            android:layout_alignStart="@+id/pw_spinner">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:src="@drawable/graphic2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:id="@+id/heartchart"
+                android:text="Display Graph"/>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
+</FrameLayout>
+

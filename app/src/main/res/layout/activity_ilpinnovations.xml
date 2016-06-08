@@ -1,0 +1,229 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.paar.ch3marker.ILpinnovations"
+    android:layout_margin="16dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="ILP INNOVATIONS"
+        android:id="@+id/textView2" />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="21dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="The world is changing with every second. Where the technological growth was once incremental, today it is exponential. The main aim of the Innovations Labs @ ILP is to connect the fresh talents of the future and create an environment to enhance the creativity and knowledge base. The Lab enables them to meet the social needs of tomorrow in an ingenious manner and solve problems with an innovative approach, with the support from technological advancements. From an organizational perspective, it will also help in identifying the right talent for the research projects. "
+                android:id="@+id/textView"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="21dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Few of the core research areas that we focus on currently are: IoT, Mobility, Big Data, Virtual Reality, Augmented Reality, Gesture Recognition, Robotics etc."
+                android:id="@+id/textView3"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:text="Contact Us"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="21dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:text="INNOVATION LEAD"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:text="Robin Tommy	Email :robin.tommy@tcs.com"  />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="21dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:text="LOCATION WISE CONTACT"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="21dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:text="TRIVANDRUM"  />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:text=" \r\n Hima Jose	Email: hima.jose@tcs.com \r\n
+Febin B	Email: febin.b@tcs.com \r\n
+Eswari Uma Ganesan	Email: eswariuma.g@tcs.com \r\n
+Reshmi Ravindranathan	Email: reshmi.ravindranathan@tcs.com \r\n
+Zubin Shams	Email: zubin.shams@tcs.com \r\n
+Sindhujah Rajarajacholan	Email: sindhujah.rajarajacholan@tcs.com \r\n
+"  />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="21dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:text="Chennai"  />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:text=" \r\n Santha Kumari T S	Email: santha.kts@tcs.com \r\n
+Girija Subramanian	Email: girija.subramanian@tcs.com \r\n
+Karutha Manivannak	Email: karutha.manivannank@tcs.com \r\n
+Rasmi R	 Email: rasmi.ravindran@tcs.com \r\n
+Pradheep R B	Email: pradheep.rb@tcs.com \r\n
+
+"  />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="21dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:text="Hyderabad"  />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:text=" \r\n Reddy Gowthm Kumar K  Email: reddygowtham.k@tcs.com \r\n
+Varanasi Vidyasagar	Email: v.vidyasagar@tcs.com \r\n
+Sitaram Tadepalli	Email: sitaram.tadepalli@tcs.com \r\n
+
+
+"  />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="21dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:text="Ahemedabad"  />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:text=" \r\n Tejas Somaiya	Email: tejas.somaiya@tcs.com \r\n
+Joshi Sunny	Email: joshi.sunny@tcs.com \r\n
+Amisha Bhatt	Email: amisha.bhatt@tcs.com \r\n
+Debanjan Chakravorty	Email: debanjan.chakravorty@tcs.com \r\n
+
+
+
+"  />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="21dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:text="Guwahati"  />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:text=" Pragothi  Email: progoti.c@tcs.com
+
+
+
+"  />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

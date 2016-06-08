@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp" android:layout_height="300dp"
+    android:orientation="vertical" android:layout_gravity="center_horizontal"
+
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#0066ff"
+        android:text="TCS SAFETY FIRST"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        />
+
+    <LinearLayout
+
+        android:layout_width="match_parent" android:layout_gravity="center_vertical|center_horizontal" android:gravity="center_horizontal|center_vertical"    android:layout_height="match_parent" android:orientation="vertical">
+
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="60dp"
+          android:layout_margin="10dp"
+          android:inputType="number"
+          android:hint="Phone no(Optional)"
+          android:id="@+id/contact" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:hint="Please explain your problem"
+            android:id="@+id/helpquery" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#ff0000"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:text="*SMS's will be sent to TCS official's"/>
+        <ImageButton
+            android:id="@+id/helpsubmit"
+            android:layout_width="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"
+  android:background="@drawable/btn_success"
+            android:contentDescription="@string/send"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/padding_normal"
+            android:src="@drawable/ic_send" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

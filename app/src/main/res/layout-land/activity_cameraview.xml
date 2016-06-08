@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <SurfaceView android:id="@+id/surfaceview" android:layout_width="fill_parent" android:layout_height="fill_parent"></SurfaceView>
+        <RelativeLayout android:id="@+id/linearLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content"></RelativeLayout>
+
+        <Button android:text="Machine Learning" android:id="@+id/mac" android:layout_margin="30dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_gravity="right|top"></Button>
+
+        <Button android:text=" ILP Innovations" android:id="@+id/ilp" android:layout_margin="30dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_gravity="left|top"></Button>
+
+        <Button android:text="Case study overview" android:id="@+id/cas" android:layout_margin="30dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"></Button>
+
+        <Button android:text="Algorithms Magic" android:id="@+id/alg" android:layout_margin="30dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"></Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:text="ILP INNOVATIONS CASE STUDY"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="100dp"
+            android:textSize="25dp"
+
+            android:visibility="visible"
+            android:id="@+id/welcome"
+            android:textColor="#ffffff" />
+
+
+
+
+    </FrameLayout>
+</LinearLayout>

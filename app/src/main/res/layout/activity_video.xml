@@ -1,0 +1,48 @@
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+ <!--   <com.paar.ch3marker.CameraSurfaceView
+        android:id="@+id/cameraSurfaceView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />  -->
+   
+    <VideoView  
+        android:id="@+id/videoView2"  
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"  
+         />
+<TextView
+    android:textSize="22dp"
+    android:textColor="#fff"
+    android:layout_margin="30dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="You can skip video after 10 seconds..."/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="  Skip \n Video"
+
+        android:layout_margin="30dp"
+        android:textColor="#fff"
+        android:textSize="20dp"
+
+
+        android:background="#333"
+        android:alpha="0.5"
+        android:id="@+id/skip"
+        android:layout_gravity="right|top" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:layout_gravity="right|top" />
+</FrameLayout>

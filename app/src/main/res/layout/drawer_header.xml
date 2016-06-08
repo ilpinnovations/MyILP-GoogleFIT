@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLightDark"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_high" >
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryLightDark"
+            android:orientation="horizontal"
+            >
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryLightDark"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/textViewName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Firstname Lastname"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/textViewEmpId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Employee Id" />
+
+                <TextView
+                    android:id="@+id/textViewLgName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LG Name" />
+
+                <TextView
+                    android:id="@+id/textViewEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email" />
+
+                <TextView
+                    android:id="@+id/textViewLocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </TableRow>
+</TableLayout>
+
+</LinearLayout>

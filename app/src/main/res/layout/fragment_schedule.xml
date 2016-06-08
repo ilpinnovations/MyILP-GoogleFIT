@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_normal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/imageButtonChangeDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/date_pick"
+            android:padding="@dimen/padding_normal"
+            android:src="@drawable/ic_date" />
+
+        <TextView
+            android:id="@+id/textViewScheduleDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/padding_high"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/editTextLgName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/hint_lg"
+            android:padding="@dimen/padding_high"
+            android:singleLine="true" >
+        </EditText>
+
+        <ImageButton
+            android:id="@+id/imageButtonGetSchedule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/date_pick"
+            android:padding="@dimen/padding_normal"
+            android:src="@drawable/ic_send" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewSchedule"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:dividerHeight="@dimen/list_divider_height" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/textViewScheduleEmptyView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/map_search"
+        android:gravity="center"
+        android:padding="@dimen/padding_high"
+        android:text="@string/list_empty_schedule"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

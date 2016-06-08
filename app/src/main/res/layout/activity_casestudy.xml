@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context="com.paar.ch3marker.ILpinnovations">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="CASE STUDY OVERVIEW"
+        android:id="@+id/textView2" />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="21dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="For taxi companies, telematics for vehicles represents a growing and valuable way to quantify drivers and their driving patterns. Telematics can not only be used to quantify but also to find the driving quality of drivers. It also provides a lot of business opportunities for the insurance, rent a car and taxi companies to serve its customers in a more efficient manner. This data can be used by the taxi companies to find out the efficient taxi drivers.
+In this case study we are trying to analyze the driving pattern and the attributes of a driver. This pattern and attributes are then compared with a set of given values to predict the matching and the percentage of matching of these values to the driver."
+                android:id="@+id/textView"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

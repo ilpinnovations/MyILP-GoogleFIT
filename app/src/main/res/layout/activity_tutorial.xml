@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@drawable/tutorialpic"
+    tools:context="com.ilp.ilpschedule.Tutorial">
+
+<Button
+  android:background="#333"
+    android:textColor="#fff"
+    android:alpha="1"
+    android:padding="2dp"
+    android:id="@+id/tutbtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Do not show again"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+    <Button
+        android:background="#333"
+        android:textColor="#fff"
+        android:alpha="1"
+        android:padding="2dp"
+        android:id="@+id/btnnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>
